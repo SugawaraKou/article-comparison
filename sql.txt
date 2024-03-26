@@ -1,0 +1,3 @@
+create table people(job text, company text, ssn text, residence text, current_location text, blood_group text, website text, username text, name text, address text, mail text, birthdate text);
+
+\copy people from 'people.csv' delimiter ',' csv header;
