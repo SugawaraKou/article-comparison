@@ -4,7 +4,7 @@ import datetime
 
 
 class ConnectDB:
-    def __init__(self, dbname='data_0', user='test', host='localhost', password='1qw23er4'):
+    def __init__(self, dbname='data0', user='test', host='localhost', password='1qw23er4'):
         self.dbname = dbname
         self.user = user
         self.host = host
