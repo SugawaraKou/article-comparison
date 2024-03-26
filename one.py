@@ -46,7 +46,7 @@ dat_st = datetime.datetime.now().timestamp()
 fake = Faker()
 db = ConnectDB()
 
-for i in range(0, 1):
+for i in range(0, 1000000):
     re = fake.profile()
     rec = {}
 
